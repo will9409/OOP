@@ -1,0 +1,16 @@
+
+public class AutoBoxingUnBoxing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int i = 10;
+		// auto boxing
+		Integer intObject = i;
+		System.out.println("intObject = " + intObject);
+
+		// auto unboxing
+		i = intObject + 10;
+		System.out.println("i = " + i);
+	}
+
+}
